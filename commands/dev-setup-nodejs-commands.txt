@@ -1,0 +1,15 @@
+sudo apt install git curl build-essential dkms perl wget -y
+sudo apt install gcc make default-libmysqlclient-dev libssl-dev -y
+sudo apt install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
+  libncurses5-dev libncursesw5-dev \
+  xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
+
+# Install NodeJs
+sudo curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && \
+sudo apt-get install -y nodejs
+
+# Install yarn
+sudo npm install yarn -g
+
+# Some dependencies
+yarn global add mocha

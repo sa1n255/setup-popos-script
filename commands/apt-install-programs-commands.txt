@@ -1,0 +1,14 @@
+sudo apt install neofetch
+
+mkdir ~/Downloads/setup-programs
+
+# Install Discord (need wget command)
+wget --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" https://discord.com/api/download?platform=linux&format=deb -O ~/Downloads/setup-programs/discord.deb
+
+# Install Visual Studio Code
+wget --user-agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 -O ~/Downloads/setup-programs/vscode.deb
+
+pwd 
+
+cd ~/Downloads/setup-programs/
+ls *.deb > 

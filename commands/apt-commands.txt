@@ -1,0 +1,6 @@
+# Enable the Firewall
+sudo ufw enable
+
+# Update Pop OS package list
+sudo apt update -y
+sudo apt upgrade -y

@@ -1,0 +1,5 @@
+# Install zsh
+sudo apt install zsh -y
+
+# Set zsh as primary shell
+chsh -s /bin/zsh

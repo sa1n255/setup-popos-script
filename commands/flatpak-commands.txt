@@ -1,0 +1,8 @@
+# Install flatpak
+sudo apt install flatpak
+
+# Install Spotify via flatpak
+flatpak install flathub com.spotify.Client
+
+# Install Bitwarden via flatpak
+flatpak install flathub com.bitwarden.desktop
